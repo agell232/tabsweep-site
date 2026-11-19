@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TabSweep — cookies gone when the tab is closed</title>
+<meta name="description" content="TabSweep is a Chrome extension that deletes a site's cookies shortly after you close its last tab. Sites you whitelist are never touched.">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <a class="brand" href="./"><img src="icon128.png" alt="">TabSweep</a>
+
+  <h1>Cookies gone when the tab is closed</h1>
+  <p class="lead">TabSweep is a Chrome extension that deletes a site's cookies shortly after you close its last tab. Sites you want to stay signed in to go on a whitelist and are never touched.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Deletes the cookies of closed sites after a delay you choose (30 seconds by default).</li>
+    <li>Optional deeper cleaning: localStorage, IndexedDB, cache storage and service workers.</li>
+    <li>Whitelist for sites to keep, with no limit on the number of sites.</li>
+    <li>Greylist for sites to keep until the browser restarts, or for a number of days.</li>
+    <li>Checks itself: after each cleanup it reads the cookies again and shows how many were really deleted.</li>
+  </ul>
+
+  <h2>Safe from the first minute</h2>
+  <ul>
+    <li>Sites that already had cookies when you installed TabSweep are left alone until you choose what to do with them, so you are not signed out everywhere on day one.</li>
+    <li>"Clean this site now" affects only the site you are on, and is switched off for whitelisted sites.</li>
+    <li>Bulk cleanups show what will be deleted and ask you to confirm.</li>
+  </ul>
+
+  <div class="card">
+    <h2 style="margin-top:0">Private by design</h2>
+    <p>TabSweep works on your device. It has no server, no account, no analytics and no ads, and it sends nothing anywhere.</p>
+    <p><a href="privacy.html">Read the privacy policy</a></p>
+  </div>
+
+  <p class="muted">TabSweep is free. It will be available in the Chrome Web Store soon.</p>
+
+  <footer class="muted">
+    <a href="privacy.html">Privacy policy</a> · <a href="mailto:tabsweep.dev@gmail.com">Contact</a>
+  </footer>
+</main>
+</body>
+</html>

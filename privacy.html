@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TabSweep privacy policy</title>
+<meta name="description" content="What the TabSweep extension reads, what it keeps on your device and what leaves it: nothing.">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <a class="brand" href="./"><img src="icon128.png" alt="">TabSweep</a>
+
+  <h1>Privacy policy</h1>
+  <p class="muted">Last updated: 19 November 2026</p>
+
+  <p class="lead">TabSweep is a browser extension that deletes the cookies, and optionally the stored data, of sites you have closed. This page says what it reads, what it keeps and what leaves your device.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">In short</h2>
+    <ul>
+      <li>TabSweep works on your device. It has no server and sends nothing to the developer or to anyone else.</li>
+      <li>It keeps a few lists in your browser so it can do its job. They are listed below.</li>
+      <li>It uses no outside services and contacts no server at all.</li>
+    </ul>
+  </div>
+
+  <h2>What TabSweep reads</h2>
+  <ul>
+    <li><strong>Cookies of all sites.</strong> It needs them to find and delete the cookies of sites you have closed. Cookie contents are not stored, copied or sent anywhere.</li>
+    <li><strong>Addresses of your open tabs.</strong> It needs them to know which sites are still open, so their cookies are left alone. Only the site name is used, not the full address or the page content.</li>
+  </ul>
+
+  <h2>What TabSweep keeps on your device</h2>
+  <p>All of this is stored in the browser's extension storage on your device. It is not synced to your account and is removed when you uninstall TabSweep.</p>
+  <ul>
+    <li>Your settings, your whitelist and your greylist.</li>
+    <li>The list of sites that already had cookies when you installed TabSweep ("old data"), so that they are not cleaned without your choice.</li>
+    <li>The sites open in your tabs and the sites you closed that are not cleaned yet, with the time each was last open. An entry is removed once the site is cleaned.</li>
+    <li>A log of the last 50 cleanups: time, number of cookies deleted and site names.</li>
+  </ul>
+  <p>Tabs in incognito windows are ignored and never recorded.</p>
+
+  <h2>What TabSweep deletes</h2>
+  <ul>
+    <li>Cookies of sites that have no open tabs and are not on your whitelist or greylist.</li>
+    <li>If you switch on deeper cleaning: the same sites' localStorage, IndexedDB, cache storage, service workers and file systems.</li>
+  </ul>
+  <p>Deleted data is not copied or kept anywhere.</p>
+
+  <h2>What leaves your device</h2>
+  <p>Nothing.</p>
+
+  <h2>What TabSweep does not do</h2>
+  <ul>
+    <li>It does not sell or share data with anyone.</li>
+    <li>It does not use data for advertising, analytics or profiling.</li>
+    <li>It does not load code from the internet.</li>
+  </ul>
+
+  <h2>Limited Use</h2>
+  <p>The use of information received from Chrome APIs adheres to the <a href="https://developer.chrome.com/docs/webstore/program-policies/user-data-faq">Chrome Web Store User Data Policy</a>, including the Limited Use requirements. Browsing-related data is used only to provide the cleaning feature you see in the extension.</p>
+
+  <h2>Changes</h2>
+  <p>If the way TabSweep handles data changes, for example when an optional payment is added, this page will be updated and the change will be announced in the extension before it takes effect.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:tabsweep.dev@gmail.com">tabsweep.dev@gmail.com</a></p>
+
+  <footer class="muted">
+    <a href="./">About TabSweep</a>
+  </footer>
+</main>
+</body>
+</html>
